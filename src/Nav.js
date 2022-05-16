@@ -1,6 +1,10 @@
 import React from "react";
 import { Text, View, StyleSheet, TouchableOpacity } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome";
+import Homeicon from "../icons/Homeicon";
+import Notiicon from "../icons/Notiicon";
+import Plusicon from "../icons/Plusicon";
+import Serachicon from "../icons/Serachicon";
 
 const Nav = ({ navigation }) => {
   return (
@@ -11,7 +15,8 @@ const Nav = ({ navigation }) => {
         }}
       >
         <Text style={styles.text}>
-          <Icon name="home" size={30} color="white" />
+          {/* <Icon name="home" size={30} color="white" /> */}
+          <Homeicon />
         </Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -20,7 +25,8 @@ const Nav = ({ navigation }) => {
         }}
       >
         <Text style={styles.text}>
-          <Icon name="search" size={30} color="white" />
+          {/* <Icon name="search" size={30} color="white" /> */}
+          <Serachicon />
         </Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -29,7 +35,8 @@ const Nav = ({ navigation }) => {
         }}
       >
         <Text style={[styles.text, styles.plus]}>
-          <Icon name="plus" size={30} color="white" />
+          {/* <Icon name="plus" size={30} color="white" /> */}
+          <Plusicon />
         </Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -38,7 +45,8 @@ const Nav = ({ navigation }) => {
         }}
       >
         <Text style={styles.text}>
-          <Icon name="bell" size={30} color="white" />
+          {/* <Icon name="bell" size={30} color="white" /> */}
+          <Notiicon />
         </Text>
       </TouchableOpacity>
       <TouchableOpacity

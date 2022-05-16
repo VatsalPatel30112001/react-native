@@ -5,6 +5,7 @@ import Home from "./src/Home";
 import New from "./src/New";
 import Notification from "./src/Notification";
 import Profile from "./src/Profile";
+import Bottomnav from "./src/Bottomnav";
 import Nav from "./src/Nav";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -23,6 +24,7 @@ const App = () => {
         <Stack.Screen name="new" component={New} />
         <Stack.Screen name="notification" component={Notification} />
         <Stack.Screen name="profile" component={Profile} />
+        <Stack.Screen name="bottomnav" component={Bottomnav} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -4,6 +4,7 @@ import Flatlist1 from "./Flatlist";
 import Page from "./Page";
 import Nav from "./Nav";
 import Hammburger from "./Hammburger";
+import Bottomnav from "./Bottomnav";
 
 const Search = ({ navigation }) => {
   return (
@@ -12,6 +13,7 @@ const Search = ({ navigation }) => {
       <Flatlist1 />
       <Page style={stylesh.page} />
       <Nav navigation={navigation} style={stylesh.Nav} />
+      {/* <Bottomnav navigation={navigation}/> */}
     </View>
   );
 };
